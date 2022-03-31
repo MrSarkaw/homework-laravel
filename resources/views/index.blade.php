@@ -11,8 +11,8 @@
        
     </head>
     <body class="flex items-center bg-gray-900 justify-center h-screen">
-        <div class="w-40 h-40 bg-gray-400 rounded-full">
-            
+        <div class="w-40 h-40 hover:h-60 hover:w-60 flex duration-150 hover:text-2xl items-center justify-center bg-gray-400 rounded-full">
+            <a href="{{ route('profile') }}">Profile</a>
         </div>
     </body>
 </html>
