@@ -10,9 +10,14 @@
 
        
     </head>
-    <body class="flex items-center bg-gray-900 justify-center h-screen">
-        <div class="w-40 h-40 hover:h-60 hover:w-60 flex duration-150 hover:text-2xl items-center justify-center bg-gray-400 rounded-full">
-            <a href="{{ route('profile') }}">Profile</a>
+    <body class="flex items-center justify-center h-screen bg-gray-900">
+        <div class="space-y-5">       
+            <div class="flex items-center justify-center w-40 h-40 duration-150 bg-gray-400 rounded-full hover:h-60 hover:w-60 hover:text-2xl">
+                <a href="{{ route('profile') }}">Profile</a>
+            </div>
+            <div class="flex items-center justify-center w-40 h-40 duration-150 bg-gray-400 rounded-full hover:h-60 hover:w-60 hover:text-2xl">
+                <a href="">Biography</a>
+            </div>
         </div>
     </body>
 </html>
